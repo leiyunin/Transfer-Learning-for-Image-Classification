@@ -1,2 +1,4 @@
 # Transfer-Learning-for-Image-Classification
-# overview
+
+# Overview
+This project employs transfer learning to classify images of 20 bird species using Keras and Python, leveraging pre-trained models EfficientNetB0 and VGG16. It involves preprocessing steps such as one-hot encoding, image resizing, and dataset partitioning into training, validation, and test sets. The models are fine-tuned by training only their last fully connected layer, with image augmentation techniques applied to enhance training data variability. Using ReLU and softmax layers, along with batch normalization and dropout to mitigate overfitting, the models are trained for over 80 epochs with early stopping based on validation performance. The EfficientNetB0 model achieved a test accuracy of approximately 79.53%, while VGG16 reached about 70.17%, demonstrating the effectiveness of using transfer learning for image classification with limited data.
